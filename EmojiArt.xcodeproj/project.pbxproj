@@ -16,6 +16,8 @@
 		BF3133EE233E886600C29228 /* EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3133ED233E886600C29228 /* EmojiArtView.swift */; };
 		BF3133F0233EC40900C29228 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3133EF233EC40900C29228 /* Utilities.swift */; };
 		BF3133F2233FCA8200C29228 /* EmojiArtDocumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3133F1233FCA8200C29228 /* EmojiArtDocumentTableViewController.swift */; };
+		BF3133F423410E4A00C29228 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3133F323410E4A00C29228 /* EmojiCollectionViewCell.swift */; };
+		BF3133F623412ACC00C29228 /* EmojiArtView+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3133F523412ACC00C29228 /* EmojiArtView+Gestures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		BF3133ED233E886600C29228 /* EmojiArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtView.swift; sourceTree = "<group>"; };
 		BF3133EF233EC40900C29228 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		BF3133F1233FCA8200C29228 /* EmojiArtDocumentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentTableViewController.swift; sourceTree = "<group>"; };
+		BF3133F323410E4A00C29228 /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF3133F523412ACC00C29228 /* EmojiArtView+Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmojiArtView+Gestures.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +71,11 @@
 				BF3133F1233FCA8200C29228 /* EmojiArtDocumentTableViewController.swift */,
 				BF3133ED233E886600C29228 /* EmojiArtView.swift */,
 				BF3133EB233E87ED00C29228 /* EmojiArtViewController.swift */,
+				BF3133F323410E4A00C29228 /* EmojiCollectionViewCell.swift */,
 				BF3133EF233EC40900C29228 /* Utilities.swift */,
 				BF3133EA233E878700C29228 /* Supporting Files */,
 				BF3133E4233E875D00C29228 /* Info.plist */,
+				BF3133F523412ACC00C29228 /* EmojiArtView+Gestures.swift */,
 			);
 			path = EmojiArt;
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3133F423410E4A00C29228 /* EmojiCollectionViewCell.swift in Sources */,
+				BF3133F623412ACC00C29228 /* EmojiArtView+Gestures.swift in Sources */,
 				BF3133D7233E875C00C29228 /* AppDelegate.swift in Sources */,
 				BF3133F2233FCA8200C29228 /* EmojiArtDocumentTableViewController.swift in Sources */,
 				BF3133EC233E87ED00C29228 /* EmojiArtViewController.swift in Sources */,
